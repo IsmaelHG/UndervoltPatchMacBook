@@ -10,7 +10,7 @@ Once you follow the steps, you should be able to write on "MSR 0x150" which basi
 
 You should only use this tutorial if you get an "OC_Locked" message on VoltageShift or "FIVR Control - locked" on ThrottleStop
 
-1. Dump the firmware from your mac: You can do this by using the flashrom tool on a live usb with a Linux distribution (like Ubuntu) or directly with an external programmer like the CH341A using an SOP8 Clip (only for 15" 2013-2014 models) / JTAG or desoldering the Firmware Chip. Check issue [#1](../../issues/1) about how to connect the programmer
+1. Dump the firmware from your mac: You can do this by using the flashrom tool on a live usb with a Linux distribution (like Ubuntu) or directly with an external programmer like the CH341A using an SOP8 Clip (only for 15" 2013-2015 models) / JTAG adapter or desoldering the Firmware Chip. Check issue [#1](../../issues/1) about how to connect the programmer
 2. When you're done, you should have an 8MB (8.388.608 bytes) file. Make sure you have a backup of this unmodified file
 3. Download [UEFIPatch](https://github.com/LongSoft/UEFITool/releases/tag/0.21.5) , it's available for both Windows and Mac
 4. Extract the zip and open the extracted folder. You'll see an "patched.txt" file.
@@ -18,12 +18,12 @@ You should only use this tutorial if you get an "OC_Locked" message on VoltageSh
 ![alt text](patches.jpg)
 6. Copy the ROM file from step 1 into the folder
 7. Open a terminal, cd to the extracted folder, type the command "UEFIPatch.exe firmware.bin" or "UEFIPatch firmware.bin" on macOS. Don't worry about any "Unknown file system" warnings, if it says "Image Patched" you're ready to go. 
- ![alt text](UEFIPatch.jpg)
+![alt text](UEFIPatch.jpg)
 8. Now you should see a new file "firmware.bin.patched" on your folder with same size as the old file (8.388.608 bytes).
 9. Flash this patched firmware with an external programmer and your done. For my model, I used an CH341A connected with an SOP8 Clip
   
   <img src="SOP8.jpg" width="294" height="359">
 
-As you can see, I'm now able to undervolt with my 2014 15" MBP while usign the latest Big Sur 11.3 Update which includes the 431.0.0.0.0 firmware.
+As you can see, I'm now able to undervolt with my 2014 15" MBP while using the latest Big Sur 11.3 Update which includes the 431.0.0.0.0 firmware.
 
 ![alt text](Undervolt.jpg)
