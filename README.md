@@ -18,6 +18,7 @@ You should only use this tutorial if you get an "OC_Locked" message on VoltageSh
 ![alt text](patches.jpg)
 6. Copy the ROM file from step 1 into the folder
 7. Open a terminal, cd to the extracted folder, type the command "UEFIPatch.exe firmware.bin" or "UEFIPatch firmware.bin" on macOS. Don't worry about any "Unknown file system" warnings, if it says "Image Patched" you're ready to go. 
+
 ![alt text](UEFIPatch.jpg)
 8. Now you should see a new file "firmware.bin.patched" on your folder with same size as the old file (8.388.608 bytes).
 9. Flash this patched firmware with an external programmer and your done. For my model, I used an CH341A connected with an SOP8 Clip
