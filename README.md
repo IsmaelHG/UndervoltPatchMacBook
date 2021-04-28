@@ -22,7 +22,7 @@ You should only use this tutorial if you get an "OC_Locked" message on VoltageSh
 8. Now you should see a new file "firmware.bin.patched" on your folder with same size as the old file (8.388.608 bytes).
 9. Flash this patched firmware with an external programmer and your done. For my model, I used an CH341A connected with an SOP8 Clip
   
-  ![alt text](SOP8.jpg)
+  <img src="SOP8.jpg" width="294" height="359">
 
 As you can see, I'm now able to undervolt with my 2014 15" MBP while usign the latest Big Sur 11.3 Update which includes the 431.0.0.0.0 firmware.
 
