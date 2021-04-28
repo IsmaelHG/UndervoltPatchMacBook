@@ -10,7 +10,7 @@ Once you follow the steps, you should be able to write on "MSR 0x150" which basi
 
 You should only use this tutorial if you get an "OC_Locked" message on VoltageShift or "FIVR Control - locked" on ThrottleStop
 
-1. Dump the firmware from your mac: You can do this by using the flashrom tool on a live usb with a Linux distribution (like Ubuntu) or directly with an external programmer like the CH341A using an SOP8 Clip (only for 15" 2013-2014 models) / JTAG or desoldering the Firmware Chip.
+1. Dump the firmware from your mac: You can do this by using the flashrom tool on a live usb with a Linux distribution (like Ubuntu) or directly with an external programmer like the CH341A using an SOP8 Clip (only for 15" 2013-2014 models) / JTAG or desoldering the Firmware Chip. Check issue [#1](../../issues/1) about how to connect the programmer
 2. When you're done, you should have an 8MB (8.388.608 bytes) file. Make sure you have a backup of this unmodified file
 3. Download [UEFIPatch](https://github.com/LongSoft/UEFITool/releases/tag/0.21.5) , it's available for both Windows and Mac
 4. Extract the zip and open the extracted folder. You'll see an "patched.txt" file.
