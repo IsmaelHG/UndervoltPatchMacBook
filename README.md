@@ -4,7 +4,7 @@
 
 Full explanation about how this mod works will be available on the next days at my [site](https://ismaelhg.github.io/)
 
-This tutorial is currently only for Haswell based macs (2013-2014). Macs with Broadwell CPUs (2015) are already unlocked. Support for Skylake/Kaby Lake models (2016-2017) is expected on the future. Macs with Ivy Bridge (M2012 - E2013) are supported but not tested.
+This tutorial is currently only for Haswell based macs (2013-2014). Macs with Broadwell CPUs (2015) are already unlocked. Support for Skylake/Kaby Lake models (2016-2017) is expected on the future.
 
 Once you follow the steps, you should be able to write on "MSR 0x150" which basically means you can do Undervolting with VoltageShift/Volta/ThrottleStop on your Mac.
 
@@ -32,5 +32,4 @@ As you can see, I'm now able to undervolt with my 2014 15" MBP while using the l
 * Mid 2014 MacBook Pro 15" | Haswell
 
 ## UPDATES
-* 29/04/2021 - Added support for Ivy Bridge cpus (Mid 2012 - Early 2013 models). It's not tested at the moment
 * 28/04/2021 - First Release
