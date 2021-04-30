@@ -2,7 +2,7 @@
 
 **Disclaimer: This tutorial requires some knowledge about disassembling laptops and using EEPROM programmers. Always make sure you have a backup of your original Firmware ROM. If the firmware gets corrupted, you won't be able to use your computer at all until you flash a proper ROM.**
 
-Full explanation about how this mod works will be available on the next days at my [site](https://ismaelhg.github.io/)
+Full explanation about how this mod works will be available on the next days at my [site](https://ismaelhg.github.io/Undervolt-Apple/)
 
 This tutorial is currently only for Haswell based macs (2013-2014). Macs with Broadwell CPUs (2015) are already unlocked. Support for Skylake/Kaby Lake models (2016-2017) is expected on the future.
 
