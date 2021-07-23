@@ -33,4 +33,5 @@ As you can see, I'm now able to undervolt with my 2014 15" MBP while using the l
 * Late 2013 MacBook Pro 15" | Haswell (tested by binh-geomatics)
 
 ## UPDATES
+* 23/07/2021 - Big Sur 11.5 Update introduces a new firmware version (431.140.6.0.0 on 15"). Patcher is still compatible but you'll need to repatch the ROM.
 * 28/04/2021 - First Release
